@@ -15,12 +15,15 @@ function createInputElm(label,type='text'){
 return lab;
 }
 
+
+
 // TEST
 createInputElm('Your name'); //<label>Your name: <input type="text"></label>
 createInputElm('Your age', 'number'); //<label>Your age: <input type="number"></label>
 
+ 
 
-// Your code goes here
+
 
 
 function createInputElm(ele,type='text'){
@@ -35,7 +38,7 @@ createInputElm('Your age', 'number'); //<label>Your age: <input type="number"></
 
 // 3. Create a function named `createList` that accept and array of data like ['Mango', 'Apple', 'Banana'] and returns
 // the html for the link like <ul> <li>Mango</li>  <li>Apple</li>  <li>Banana</li> </ul>
-// Your code goes here
+ 
 function createList(arr){
 
  let ul=document.createElement('ul');
