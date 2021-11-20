@@ -146,6 +146,11 @@ let booklyData={
       ul.style.flexDirection='column'
       ul.style.alignItems='center'
  
-  
+      div.style.width='32%'
+      div.style.margin='.5rem .5rem'
+      div.style.backgroundColor='white'
+      ul.append(image,h2,h3,btn);
+      div.append(ul);
+      divHtml.append(div);
     
   });
